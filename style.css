@@ -1,0 +1,166 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100&display=swap');
+
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.container{
+    width: 95%; 
+    margin: auto; 
+}
+
+.navBar .nav {
+    display: flex; 
+    justify-content: space-between;
+}
+.nav p{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 'bold'; 
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.nav img{
+    width: 10%; 
+}
+.formSection{
+    width: 40%;
+    padding: 30px; 
+    margin-left: 27%;
+    margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px; 
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: green; 
+    color: white; 
+
+}
+.formHeading {
+    text-align: center;
+}
+.formSection form{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 5%;
+}
+.formSection form input{ 
+    padding: 5px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border-radius: 5px; 
+    border: 1px solid gray;
+}
+form select{
+    border: 1px solid gray; 
+}
+.formSection button{
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px; 
+    cursor: pointer;
+    background-color: yellow;  
+    border: none;
+    font-weight: bold; 
+    border-radius: 5px;
+}
+#formDisplay{
+    margin-top: 5%;
+}
+#formDisplay h1 {
+    display: none; 
+}
+.fName{
+    padding: 5px; 
+    width: 150px; 
+    box-shadow: 10px 10px 5px lightblue;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: medium;
+}
+.lName, .mobileInput, .mailInput, .courseInput, .courseIDInput{
+    margin-left: 10px; 
+    margin-top: 1%;
+    padding: 5px; 
+    box-shadow: 10px 10px 5px lightblue;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: medium;
+}
+.mailInput{
+    width: 220px;
+}
+.editBtn{
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    padding: 8px; 
+    width: 70px; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px lightblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.saveBtn{
+    background-color: yellow; 
+    border: none; 
+    padding: 8px; 
+    width: 70px; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px lightblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.delbtn{
+    background-color: red; 
+    color: white;  
+    border: none; 
+    padding: 8px; 
+    width: 70px; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px lightblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.registeredHeading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 3%; 
+    display: none; 
+}
+
+.formhtwo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center; 
+    display: none;
+}
+.registerheading{
+    display: grid;
+    grid-template-columns: repeat(6,192px);
+}
+#backButton{
+    display: none; 
+}
+.backBtn{
+    display: inline-block;
+}
+.copyRightsSection{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 4%;
+}
+.copyRightsSection p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.copyrightLogo{
+    margin-right: 5px; 
+}
